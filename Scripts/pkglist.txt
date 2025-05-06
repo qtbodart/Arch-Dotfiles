@@ -1,0 +1,10 @@
+firefox
+git
+hyprpaper
+noto-fonts-cjk
+nvim
+otf-codenewroman-nerd
+ttf-nerd-fonts-symbols
+vscode
+waybar
+wofi
