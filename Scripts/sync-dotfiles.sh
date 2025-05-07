@@ -17,14 +17,17 @@ FILES=(
 # --------------------------
 # Stage files for commit
 # --------------------------
-echo "Adding dotfiles...\n"
+
+echo '\n'"#######################"
+echo '\n'"### ADDING DOTFILES ###"
+echo '\n'"#######################"
 
 for file in "${FILES[@]}"; do
     if [ -e "$HOME/$file" ]; then
         $DOTFILES add "$HOME/$file"
-        echo "✅ Added $file"
+        echo "✅Added $file"
     else
-        echo "⚠️  Skipped $file (does not exist)"
+        echo "⚠ Skipped $file (does not exist)"
     fi
 done
 
