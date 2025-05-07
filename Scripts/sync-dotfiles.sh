@@ -18,9 +18,9 @@ FILES=(
 # Stage files for commit
 # --------------------------
 
-echo '\n'"#######################"
-echo '\n'"### ADDING DOTFILES ###"
-echo '\n'"#######################"
+echo $'\n'"#######################"
+echo      "### ADDING DOTFILES ###"
+echo      "#######################"$'\n'
 
 for file in "${FILES[@]}"; do
     if [ -e "$HOME/$file" ]; then
