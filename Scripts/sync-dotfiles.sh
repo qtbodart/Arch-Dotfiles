@@ -17,7 +17,7 @@ FILES=(
 # --------------------------
 # Stage files for commit
 # --------------------------
-echo "Adding dotfiles..."
+echo "Adding dotfiles...\n"
 
 for file in "${FILES[@]}"; do
     if [ -e "$HOME/$file" ]; then
@@ -42,7 +42,7 @@ $DOTFILES commit -m "$commit_msg"
 # --------------------------
 # Push
 # --------------------------
-echo "⬆️  Pushing to remote..."
+echo "ushing to remote..."
 $DOTFILES push
 
 echo "✅ Dotfiles synced successfully!"
