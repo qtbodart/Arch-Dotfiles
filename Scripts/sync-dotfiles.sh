@@ -17,7 +17,7 @@ FILES=(
 # --------------------------
 # Stage files for commit
 # --------------------------
-echo "📦 Adding dotfiles..."
+echo "Adding dotfiles..."
 
 for file in "${FILES[@]}"; do
     if [ -e "$HOME/$file" ]; then
@@ -36,7 +36,7 @@ if [ -z "$commit_msg" ]; then
     commit_msg="Sync dotfiles - $(date)"
 fi
 
-echo "📥 Committing changes..."
+echo "Committing changes..."
 $DOTFILES commit -m "$commit_msg"
 
 # --------------------------
