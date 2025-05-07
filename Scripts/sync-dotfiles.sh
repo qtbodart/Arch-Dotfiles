@@ -18,9 +18,9 @@ FILES=(
 # Stage files for commit
 # --------------------------
 
-echo $'\n'"#######################"
-echo      "### ADDING DOTFILES ###"
-echo      "#######################"$'\n'
+echo $'\n'"###########################"
+echo      "### ADDING DOTFILES ... ###"
+echo      "###########################"$'\n'
 
 for file in "${FILES[@]}"; do
     if [ -e "$HOME/$file" ]; then
@@ -39,13 +39,22 @@ if [ -z "$commit_msg" ]; then
     commit_msg="Sync dotfiles - $(date)"
 fi
 
-echo "Committing changes..."
+
+echo $'\n'"#############################"
+echo      "### COMMITTING CHANGES... ###"
+echo      "#############################"$'\n'
+
 $DOTFILES commit -m "$commit_msg"
 
 # --------------------------
 # Push
 # --------------------------
-echo "ushing to remote..."
+
+
+echo $'\n'"#########################"
+echo      "### PUSHING TO REMOTE ###"
+echo      "#########################"$'\n'
+
 $DOTFILES push
 
 echo "✅ Dotfiles synced successfully!"
