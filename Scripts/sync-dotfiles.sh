@@ -57,4 +57,4 @@ echo      "#########################"$'\n'
 
 $DOTFILES push
 
-echo "✅ Dotfiles synced successfully!"
+echo $'\n'"✅ Dotfiles synced successfully!"
