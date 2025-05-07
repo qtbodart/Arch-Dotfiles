@@ -4,8 +4,7 @@ DOTFILES_REPO="https://github.com/qtbodart/Arch-Dotfiles.git"
 DOTFILES_DIR="$HOME/.dotfiles"
 
 # Checkout dotfiles
-echo "Checking out dotfiles..."
-git --git-dir="$DOTFILES_DIR" --work-tree="$HOME" checkout -f
+echo "Ignoring untracked files in dotfiles..."
 git --git-dir="$DOTFILES_DIR" --work-tree="$HOME" config --local status.showUntrackedFiles no
 
 # Source shell config
