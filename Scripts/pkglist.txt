@@ -1,3 +1,4 @@
+brightnessctl
 firefox
 git
 hyprpaper
