@@ -12,6 +12,7 @@ FILES=(
     ".config/hypr/"
     ".config/waybar/"
     "Scripts"
+    "Wallpapers/"
 )
 
 # --------------------------
