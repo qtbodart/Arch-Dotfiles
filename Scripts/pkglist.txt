@@ -1,9 +1,14 @@
+alacritty
 brightnessctl
 firefox
 git
+gnome-themes-extra
 hyprpaper
+nautilus
+neofetch
 noto-fonts-cjk
 nvim
+obsidian
 otf-codenewroman-nerd
 ttf-nerd-fonts-symbols
 vscode

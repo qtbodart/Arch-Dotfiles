@@ -1,2 +1,6 @@
+adwaita-qt5-git
+adwaita-qt6-git
 discord
 spotify
+synology-drive
+
