@@ -1,5 +1,8 @@
 alacritty
+bluez
+bluez-utils
 brightnessctl
+dosfstools
 firefox
 git
 gnome-themes-extra
