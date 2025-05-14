@@ -3,6 +3,7 @@ bluez
 bluez-utils
 brightnessctl
 dosfstools
+erlang
 firefox
 git
 gnome-themes-extra
@@ -13,7 +14,8 @@ noto-fonts-cjk
 nvim
 obsidian
 otf-codenewroman-nerd
+ttf-fira-code
 ttf-nerd-fonts-symbols
-vscode
+sl
 waybar
 wofi

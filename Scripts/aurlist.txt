@@ -1,5 +1,6 @@
 bluetuith
 discord
+mozart2
 spotify
 synology-drive
-
+visual-studio-code-bin
