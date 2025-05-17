@@ -8,8 +8,8 @@ DOTFILES="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 # Files/directories to track
 FILES=(
     ".bashrc"
-    ".zshrc"
     ".config/hypr/"
+    ".config/neofetch/config.conf"
     ".config/waybar/"
     "Scripts"
     "Wallpapers/"
