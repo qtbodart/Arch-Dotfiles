@@ -7,6 +7,7 @@ erlang
 firefox
 git
 gnome-themes-extra
+grim
 hyprpaper
 nautilus
 neofetch
@@ -14,6 +15,7 @@ noto-fonts-cjk
 nvim
 obsidian
 otf-codenewroman-nerd
+slurp
 ttf-fira-code
 ttf-nerd-fonts-symbols
 sl
