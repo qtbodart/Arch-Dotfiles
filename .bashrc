@@ -13,6 +13,7 @@ alias pv='source ~/.venv/bin/activate'
 alias conf='nano ~/.config/hypr/hyprland.conf'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sched='python ~/SynologyDrive/Work/Useful\ Code/Scheduler/scheduler_v_4.py'
+alias pushdotfiles='python ~/.dotfiles/install/Scripts/sync_dotfiles.py'
 
 PS1='[\u@\h \W]\$ '
 
