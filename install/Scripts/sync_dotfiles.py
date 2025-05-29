@@ -9,8 +9,7 @@ DOTFILES_TO_SYNC = [
     ".bashrc",
     ".config/hypr",
     ".config/waybar",
-    ".config/neofetch",
-    ".arch_dotfiles"
+    ".config/neofetch"
 ]
 
 def copy_dotfiles():
