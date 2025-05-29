@@ -3,15 +3,12 @@
 import subprocess
 from pathlib import Path
 import shutil
-import os
 
 DOTFILES_REPO = Path.home() / ".dotfiles"
 DOTFILES_TO_SYNC = [
     ".bashrc",
-    ".zshrc",
     ".config/hypr",
     ".config/waybar",
-    ".config/nvim",
     ".config/neofetch",
     ".arch_dotfiles"
 ]
