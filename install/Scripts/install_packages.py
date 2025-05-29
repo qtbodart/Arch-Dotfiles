@@ -1,8 +1,8 @@
 import subprocess
 from pathlib import Path
 
-PKG_PATH = Path.home() / ".arch_dotfiles/pkglist.txt"
-AUR_PATH = Path.home() / ".arch_dotfiles/aurlist.txt"
+PKG_PATH = Path.home() / ".dotfiles/install/pkglist.txt"
+AUR_PATH = Path.home() / ".dotfiles/install/aurlist.txt"
 
 def install_package(name, installer="pacman"):
     """Installs the package `name` using `installer`, if not already installed."""
